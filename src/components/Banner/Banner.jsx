@@ -22,6 +22,9 @@ const Banner = () =>{
                 <div className={styles.bannerimg}>
                     <img src="http://thirdessential.com/coax/assets/images/main.png" alt="Bannner Img"/>
                 </div>
+                <div className={styles.bannerimg__m}>
+                    <img src="http://thirdessential.com/coax/assets/images/Group%2028490.png" alt="Bannner Img"/>
+                </div>
             </div>
         </div>
     )

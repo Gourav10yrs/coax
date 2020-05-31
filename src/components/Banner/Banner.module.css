@@ -84,10 +84,21 @@
 .bannerimg img {
     max-width: 100%;
 }
+.bannerimg__m{
+    display: none;
+}
+
 @media only screen and (max-width: 767px){
     .bannercontainer {
         flex-direction: column;
         padding: 5px 15px;
+    }
+    .bannerimg {
+        display: none !important;
+    }
+    .bannerimg__m{
+        display: inline;
+        max-width: 100%
     }
     .banner__btn{
         flex-direction: column;

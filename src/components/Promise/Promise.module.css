@@ -63,3 +63,16 @@
     color: #ffffff;
     border-color: #204294;
 }
+@media only screen and (max-width: 767px){
+    .promise__block{
+        flex-direction: column;
+        padding: 1rem 1rem !important;
+    }
+    .section{
+        padding: 0px 15px;
+    }
+    .promise__content{
+        padding: 0px !important;
+    }
+    
+}
