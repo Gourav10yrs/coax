@@ -180,3 +180,11 @@
     color: #2255CE;
     font-size: 20px;
 }
+@media only screen and (max-width: 768px){
+    .contact__container, .form{
+        flex-direction: column;
+    }
+    .eight{
+        width: 100% !important;
+    }
+}

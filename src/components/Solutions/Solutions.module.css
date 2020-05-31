@@ -53,3 +53,11 @@
     margin: 0;
     line-height: 1.7;
 }
+@media only screen and (max-width: 767px){
+    .solutions__heading{
+        font-size: 40px;
+    }
+    .section{
+        padding: 0px 15px;
+    }
+}

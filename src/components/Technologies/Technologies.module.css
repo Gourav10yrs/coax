@@ -18,6 +18,9 @@
 .tech__headingBlock{
     margin-bottom: 30px;
 }
+.tech__m__container{
+    display: none !important;
+}
 
 .tech__container, .tech__container2 {
     display: -ms-flexbox;
@@ -28,6 +31,9 @@
 }
 .tech__container2{
     justify-content: space-between;
+}
+.tech__m__container2{
+    display: none !important;
 }
 .tech_column{
     flex: 0.2;
@@ -53,4 +59,21 @@
     margin-right: 10px;
     font-size: 0;
     height: 22px;
+}
+@media only screen and (max-width: 990px){
+    .tech__m__container, .tech__m__container2{
+        display: flex !important;
+    }
+    .tech__m__column{
+        flex: 1;
+    }   
+    .tech__container, .tech__container2{
+        display: none !important;
+    }
+    .section{
+        padding: 0px 15px;
+    }
+    .tech__heading{
+        font-size: 40px;
+    }
 }

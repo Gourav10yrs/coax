@@ -24,7 +24,6 @@
 }
 .showcases__img{
     flex: 2;
-
 }
 .showcases__img img {
     max-width: 100%;
@@ -105,4 +104,29 @@
     -ms-flex-align: center;
     align-items: center;
     padding-top: 30px;
+}
+@media only screen and (max-width: 768px){
+    .tech__heading{
+        font-size: 40px;
+    }
+    .tech__block{
+        margin-bottom: 32px;
+    }
+    .section {
+        padding: 0px 15px;
+    }
+    .showcases__content {
+        flex: 1.5;
+        margin-top: 25px;
+    }
+    .showcases__img{
+        flex: 1;
+        margin: auto;
+    }
+    .showcases__img img{
+        width: 100% !important;
+    }
+    .btn__showcases{
+        margin-top: 0px;
+    }
 }

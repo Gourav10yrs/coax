@@ -3,6 +3,7 @@
 }
 .bannercontainer {
     display: flex;
+    margin-top: 35px;
 }
 .bannercontent, .bannerimg{
     flex: 1;
@@ -83,3 +84,24 @@
 .bannerimg img {
     max-width: 100%;
 }
+@media only screen and (max-width: 767px){
+    .bannercontainer {
+        flex-direction: column;
+        padding: 5px 15px;
+    }
+    .banner__btn{
+        flex-direction: column;
+    }
+    .btn__primary{
+        max-width: 200px;
+    }
+    .btn__default{
+        max-width: 188px;
+    }
+    .banner__heading{
+        font-size: 40px;
+        line-height: 1.5;
+        margin-bottom: 22px;
+    }
+}
+

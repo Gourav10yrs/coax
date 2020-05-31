@@ -28,3 +28,10 @@
     letter-spacing: 0.5px;
     padding-right: 22px;
 }
+@media only screen and (max-width: 767px){
+    .advantage__container{
+        flex-direction: column;
+        padding: 1rem 1rem !important;
+    }
+    
+}
