@@ -1,0 +1,85 @@
+.banner {
+    padding-top: 66px;
+}
+.bannercontainer {
+    display: flex;
+}
+.bannercontent, .bannerimg{
+    flex: 1;
+}
+.banner__heading {
+    font-size: 64px;
+    line-height: 1.23;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 30px;
+    letter-spacing: 0.7px;
+}
+.banner__content{
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.banner__btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner__btn a {
+    font-size: 14px;
+    min-width: 220px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.btn__primary, .btn__default {
+    display: inline-block;
+    height: 64px;
+    line-height: unset;
+    font-weight: normal;
+    background: #FFFFFF;
+    padding: 0px 20px;
+    padding-top: 30px;
+    padding-left: 8px;
+    text-align: left;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+.btn__primary span , .btn__default span {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    font-size: 0;
+    display: inline-block;
+}
+.btn__primary{
+    border-color: #2255CE;
+    background-color: #2255CE;
+    color: #FFFFFF;
+}
+.btn__primary:hover {
+    background-color: #204294;
+    color: #ffffff;
+    border-color: #204294;
+}
+
+.btn__default {
+    color: #2255CE;
+    border: 1px solid #DADADA;
+    border-radius: 2px;
+    min-width: 188px !important;
+}
+.btn__default:hover {
+    border: 1px solid #2255CE;
+}
+
+.bannerimg img {
+    max-width: 100%;
+}

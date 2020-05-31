@@ -1,0 +1,15 @@
+body {
+  font-family: "Formular", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.widex {
+  max-width: 1110px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

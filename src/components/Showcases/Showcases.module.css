@@ -1,0 +1,108 @@
+.section {
+    padding: 0px 0px 100px 0px;
+}
+.tech__block {
+    margin-bottom: 64px;
+}
+.tech__heading{
+    color: #000000;
+    font-weight: normal;
+    margin: 0;
+    font-size: 50px;
+}
+.showcases__container {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.showcases__block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.showcases__content {
+    flex: 1;
+}
+.showcases__img{
+    flex: 2;
+
+}
+.showcases__img img {
+    max-width: 100%;
+}
+
+.showcases__subHeading{
+    font-weight: 300;
+    font-size: 16px;
+    color: #828282;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.showcases__heading{
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.solution__heading__hover:hover {
+    color: #2255CE;
+}
+.showcases__content{
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+.showcases__block {
+    margin-bottom: 100px;
+}
+.btn__showcases {
+    margin-top: 92px;
+    margin-bottom: 0;
+    border-color: transparent;
+    color: #2255CE;
+    padding: 0px 20px;
+    padding-left: 0;
+    height: 48px;
+    line-height: 45px;
+    min-width: 156px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.btn__showcases span {
+    position: unset;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    font-size: 0;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 15px;
+    width: 16px;
+    margin-top: 10px;
+}
+
+.showcases__img {
+    width: 66%;
+    margin-right: 0;
+    margin-left: auto;
+    background: #F5F5F6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 30px;
+}

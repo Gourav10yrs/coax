@@ -1,0 +1,55 @@
+.topNavbar {
+    padding: 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.navbarItem{
+    list-style: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin: 0px 10px;
+}
+.logo{
+    width: 170px;
+    padding: 10px 10px;
+}
+.navbarList {
+    flex-grow: 8;
+}
+.navbarLink {
+    text-decoration: none;
+    color: #000000;
+}
+.navbarLink:hover {
+    color: #2255CE;
+}
+.navbarNav {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+
+}
+.contactUsButton{
+    color: #2255CE;
+    border: 1px solid #DADADA;
+    border-radius: 2px;
+    padding: 12px 20px;
+    font-size: 19px;
+    text-decoration: none;
+}
+.contactUsButton:hover {
+    border: 1px solid #2255CE;
+}
+.contactUs {
+    padding: 10px 10px;
+    flex-grow: 1;
+}
+.contactarrow {
+    margin-left: 15px;
+}
+.contactarrow img {
+    width: 16px;
+}

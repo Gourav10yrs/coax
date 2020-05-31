@@ -1,0 +1,30 @@
+.section {
+    padding: 100px 0px;
+}
+.advantage__container{
+    display: flex;
+}
+.advantage__column {
+    flex: 1;
+}
+.advantage__icon {
+    width: 96px;
+    margin-bottom: 10px;
+}
+.advantage__heading {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+.advantage__info {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    padding-right: 22px;
+}
