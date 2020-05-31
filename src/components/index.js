@@ -6,6 +6,9 @@ export { default as Technologies } from './Technologies/Technologies'
 export { default as Showcases } from './Showcases/Showcases'
 export { default as Promise } from './Promise/Promise'
 export { default as Platform } from './Platform/Platform'
+export { default as Contact } from './Contact/Contact'
+export { default as Footer } from './Footer/Footer'
+
 
 
 

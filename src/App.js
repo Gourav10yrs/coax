@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from'./App.module.css';
-import { NavBar, Banner, Advantage, Solutions, Technologies, Showcases, Promise, Platform } from './components'
+import { NavBar, Banner, Advantage, Solutions, Technologies, Showcases, Promise, Platform, Contact , Footer} from './components'
 
 class App extends React.Component {
   render(){
@@ -15,7 +15,9 @@ class App extends React.Component {
         <Showcases />
         <Promise />
         <Platform />
+        <Contact />
       </div>
+      <Footer />
     </div>
   )
   }

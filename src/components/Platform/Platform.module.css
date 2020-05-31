@@ -1,0 +1,32 @@
+.section {
+    padding: 100px 0px;
+}
+.platform__block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.platform__container{
+    flex: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.platform__img{
+    width: 90px;
+    margin-bottom: 10px;
+}
+.platform__heading {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #000000;
+    word-break: break-all;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.platform__info {
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7A7A7A;
+}
