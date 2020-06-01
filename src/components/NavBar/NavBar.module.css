@@ -151,7 +151,7 @@
 
 
 /* mobile navBar */
-.topNavbar__m{
+.topNavbar__m, .header__mobileMenu{
     display: none;
 }
 
@@ -172,5 +172,47 @@
     .nav__toggle{
         padding: 20px;
         cursor: pointer;
+    }
+    .header__mobileMenu {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 16px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        width: 0%;
+        opacity: 0;
+        visibility: hidden;
+        padding: 30px 30px;
+        overflow: hidden;
+        overflow-y: auto;
+        z-index: 999;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .header__mobileMenuactive {
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+    .topNavbar__y{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .navbarNav{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 1180px) and (min-width: 1001px){
+    .navbarItem{
+        padding: 12px 5px;
+        margin: 0 2px;
     }
 }
