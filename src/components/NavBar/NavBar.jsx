@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import styles from './NavBar.module.css';
-import $ from "jquery";
 import cx from 'classname'
 
 class NavBar extends Component{
@@ -20,7 +19,7 @@ class NavBar extends Component{
     }
 
  render(){    
-   let open = (this.state.isActive) ? 'NavBar_header__mobileMenuactive__g2CTN' : 'none';
+   let open = (this.state.isActive) ? 'header__mobileMenuactive' : 'none';
      return(
         <>
             <div className={styles.topNavbar}>
@@ -135,7 +134,7 @@ class NavBar extends Component{
                     </svg>
                 </span>
             </div>
-            <div className={`NavBar_header__mobileMenu__3V6kt ${open}`}>
+            <div className={`header__mobileMenu ${open}`}>
                 <div className={styles.topNavbar__y}>
                     <div className={styles.logo}>
                         <a href="/">
