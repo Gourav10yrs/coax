@@ -149,6 +149,7 @@ class NavBar extends Component{
                         <img src="http://thirdessential.com/coax/assets/images/svg/close.svg" alt="x"/>
                     </span>
                 </div>
+                <div className={styles.center}>
                 <ul className={styles.navbarNav}>
                     <li className={styles.navbarItem}>
                         <a className={styles.navbarLink} href="#">Solutions</a>
@@ -172,6 +173,12 @@ class NavBar extends Component{
                         <a className={styles.navbarLink} href="#">Careers</a>
                     </li>
                 </ul>
+                <div className={styles.contactUs}>
+                    <a href="#" className={styles.contactUsButton}> Contact Us
+                    <span className={styles.contactarrow}><img src="http://thirdessential.com/coax/assets/images/ar_right.png"/></span>
+                    </a>
+                </div>
+                </div>
             </div>
         </>
     )

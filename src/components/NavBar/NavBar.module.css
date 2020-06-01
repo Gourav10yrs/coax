@@ -51,6 +51,9 @@
     border-right: 2px solid #2255CE;
     right: 3px;
 }
+.center{
+    text-align: center;
+}
 
 .nav__dropdown::before {
     content: "";
